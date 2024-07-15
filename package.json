@@ -1,0 +1,30 @@
+{
+  "name": "lybano-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lybano/lybano-backend.git"
+  },
+  "author": "Matheus Rabelo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lybano/lybano-backend/issues"
+  },
+  "homepage": "https://github.com/Lybano/lybano-backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.10.2"
+  }
+}
