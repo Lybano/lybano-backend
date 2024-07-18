@@ -19,7 +19,8 @@ class UserModel {
     ];
     try {
       const [result] = await db.query(sql, values);
-      return result;
+      const users = this.findUser(user.id);
+      return users;
     } catch (error) {
       console.error("Erro ao inserir usuário", error);
       throw error;
